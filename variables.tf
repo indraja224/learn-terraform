@@ -7,7 +7,7 @@ variable "region" {
 }
 
 variable "resource_group_name" {
-  default = "MY_RG_02"
+  default = "Indraja_02"
 }
 
 
