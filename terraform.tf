@@ -2,21 +2,21 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "dev-ip"
 
     workspaces {
       name = "learn-terraform"
     }
-  }
+  }*/
 
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.31.0"
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0.2"
     }
   }
 
-  required_version = "~> 1.2"
+  required_version = ">= 1.1.0"
 }
